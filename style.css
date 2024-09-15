@@ -1,0 +1,169 @@
+/*Adaptation aux différents écrans*/
+ /* Styles spécifiques pour les écrans larges */
+ @media screen and (min-width: 768px) {
+    img {
+max-width: 100%;
+height: auto;
+}
+
+.container {
+display: flex;
+flex-direction: column; /* Pour les appareils mobiles */
+/* Autres styles */
+}
+
+body {
+font-size: 16px; /* Taille de base */
+}
+
+h1 {
+font-size: 2rem; /* 32px sur tous les écrans */
+}
+
+
+}
+
+/* Styles spécifiques pour les écrans étroits (mobiles) */
+@media screen and (max-width: 767px) {
+    img {
+max-width: 100%;
+height: auto;
+}
+
+.container {
+display: flex;
+flex-direction: column; /* Pour les appareils mobiles */
+/* Autres styles */
+}
+
+body {
+font-size: 16px; /* Taille de base */
+}
+
+h1 {
+font-size: 2rem; /* 32px sur tous les écrans */
+}
+
+
+}
+/*Fin adaptation aux différents écrans*/
+
+/* Annimation box */
+.box {
+    width: 300px;
+    height: 5px;
+    background-color: greenyellow;
+    position: relative;
+    animation: move 4s infinite alternate;
+}
+
+@keyframes move {
+    from { left: 0; }
+    to { left: 735px; }
+}
+/* Fin animation box */
+
+/* Zoomer boutton */
+@keyframes boutonAnimation {
+    0% {
+        background-color: #4c99af;
+        transform: scale(1);
+    }
+    50% {
+        background-color: #4577a0;
+        transform: scale(1.1);
+    }
+    100% {
+        background-color: #4c54af;
+        transform: scale(1);
+    }
+}
+
+/* Appliquer l'animation au bouton */
+.animated-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #090f09;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+    animation: boutonAnimation 1s infinite;
+}
+/* Fin zoomer boutton */
+
+/* Appliquer l'image d'arrière-plan */
+.background-container {
+    background-image: url('https://i.pinimg.com/474x/03/b6/af/03b6af12995490ada2d853784f60afe2.jpg');
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'élément */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    width: 100%;
+    height: 100vh; /* Hauteur de la fenêtre */
+}
+/* Fin appliquer l'image d'arrière-plan */
+
+/* Définir l'animation (L'adresse ideal pour vous.) */
+@keyframes exempleAnimation {
+    0% {
+        transform: translateX(0);
+        background-color: rgba(15, 85, 142, 0.626);
+    }
+    50% {
+        transform: translateX(100px);
+        background-color: rgba(39, 138, 219, 0.386);
+    }
+    100% {
+        transform: translateX(0);
+        background-color: white;
+    }
+}
+
+/* Appliquer l'animation à un élément */
+.animated-element {
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    animation: exempleAnimation 5s infinite;
+}
+/* Fin définir l'animation (L'adresse ideal pour vous.) */
+/*Debut box (UPSP.MARKET)*/
+.special-box {
+    padding: 10px;
+    border: 5px solid #2f1a9c;
+    background-color: #f9f9f9;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
+/*Fin box (UPSP.MARKET)*/
+
+
+
+
+
+
+/* Styles pour le contenu principal */
+.content {
+    min-height: 80vh; /* Assure que le contenu principal prend au moins 80% de la hauteur de la fenêtre */
+}
+
+/* Styles pour le pied de page */
+.footer {
+    background-color: #232121;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
