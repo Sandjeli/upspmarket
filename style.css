@@ -84,7 +84,7 @@ font-size: 2rem; /* 32px sur tous les écrans */
     padding: 15px 25px;
     font-size: 16px;
     color: white;
-    background-color: #090f09;
+    background-color: #2c2e2c;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -139,7 +139,7 @@ font-size: 2rem; /* 32px sur tous les écrans */
     border-radius: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 18px;
-    color: #333;
+    color: #f30c0c;
     text-align: center;
     width: 300px;
     margin: 20px auto;
