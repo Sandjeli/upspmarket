@@ -181,3 +181,15 @@ font-size: 2rem; /* 32px sur tous les écrans */
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/*image arrière plan food*/
+.food {
+    background-image: url('https://i.pinimg.com/474x/33/53/4d/33534d732982f85e5fe97c6baf41809d.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }
+  
+/*fin image arrière plan food*/
