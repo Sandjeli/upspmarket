@@ -182,6 +182,18 @@ font-size: 2rem; /* 32px sur tous les écrans */
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/*image arrière plan tech*/
+.tech {
+    background-image: url('https://i.pinimg.com/474x/66/68/30/666830b40998b5b1fcefbc4c213888ad.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }
+  
+/*fin image arrière plan tech*/
+
 /*image arrière plan food*/
 .food {
     background-image: url('https://i.pinimg.com/474x/33/53/4d/33534d732982f85e5fe97c6baf41809d.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
@@ -193,3 +205,48 @@ font-size: 2rem; /* 32px sur tous les écrans */
   }
   
 /*fin image arrière plan food*/
+
+/*image arrière plan Clothes*/
+.clo {
+    background-image: url('https://i.pinimg.com/474x/bb/fb/68/bbfb68abd77507c27852f3c63efa8c76.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }  
+/*fin image arrière plan clothes*/
+
+/*image arrière plan cosmétique*/
+.cos {
+    background-image: url('https://i.pinimg.com/474x/ff/49/69/ff4969bf0de7e66fa4896c9209719205.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }  
+/*fin image arrière plan cosmétique*/
+
+
+/*image arrière plan boutique*/
+.bout {
+    background-image: url('https://i.pinimg.com/474x/66/72/83/6672833343712abe6e1d2cead5cfd476.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }  
+/*fin image arrière plan boutique*/
+
+/*image arrière plan service*/
+.serv {
+    background-image: url('https://i.pinimg.com/474x/8d/2c/68/8d2c68f0d2e53256000306c874c04f43.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:black;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }  
+/*fin image arrière plan service*/
