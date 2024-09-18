@@ -50,16 +50,16 @@ font-size: 2rem; /* 32px sur tous les écrans */
 
 /* Annimation box */
 .box {
-    width: 300px;
+    width: 250px;
     height: 5px;
-    background-color: greenyellow;
+    background-color: rgb(47, 82, 255);
     position: relative;
-    animation: move 4s infinite alternate;
+    animation: move 2s infinite alternate;
 }
 
 @keyframes move {
     from { left: 0; }
-    to { left: 735px; }
+    to { left: 100px; }
 }
 /* Fin animation box */
 
