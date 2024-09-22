@@ -213,7 +213,7 @@ font-size: 2rem; /* 32px sur tous les écrans */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     background-position: center; /* Centre l'image dans l'élément */
     padding: 20px; /* Ajoute un peu de padding pour le contenu */
-    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+    color:whitesmoke;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
   }  
 /*fin image arrière plan clothes*/
 
@@ -224,7 +224,7 @@ font-size: 2rem; /* 32px sur tous les écrans */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     background-position: center; /* Centre l'image dans l'élément */
     padding: 20px; /* Ajoute un peu de padding pour le contenu */
-    color:white;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+    color:black;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
   }  
 /*fin image arrière plan cosmétique*/
 
