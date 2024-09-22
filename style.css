@@ -250,3 +250,14 @@ font-size: 2rem; /* 32px sur tous les écrans */
     color:black;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
   }  
 /*fin image arrière plan service*/
+
+/*image arrière plan déco & entretien*/
+.entr {
+    background-image: url('https://i.pinimg.com/474x/66/72/83/6672833343712abe6e1d2cead5cfd476.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'élément */
+    padding: 20px; /* Ajoute un peu de padding pour le contenu */
+    color:black;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
+  }  
+/*fin image arrière plan déco & entretien*/
