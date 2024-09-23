@@ -147,23 +147,6 @@ font-size: 2rem; /* 32px sur tous les écrans */
 }
 /*Fin box (UPSP.MARKET)*/
 
-/*Debut box (pain sièmo)*/
-
-.special-box1 {
-    padding: 15px;
-    border: 2px solid rgb(53, 25, 25);
-    background-color: grey;
-    border-radius: 0px;
-    font-size: 18px;
-    color: white;
-    text-align: left;
-    width: 400px;
-    margin: 20px auto;
-}
-/*Fin box (pain sièmo)*/
-
-
-
 
 /* Styles pour le contenu principal */
 .content {
@@ -261,3 +244,13 @@ font-size: 2rem; /* 32px sur tous les écrans */
     color:black;/* Change la couleur du texte pour qu'il soit lisible sur l'image de fond */
   }  
 /*fin image arrière plan déco & entretien*/
+
+
+ul {
+list-style-type:none;
+overflow:hidden;
+}
+
+li {
+float:left;
+}
