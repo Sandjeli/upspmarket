@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<span style="color:white">
+    <link rel="icon" href="https://i.pinimg.com/736x/e4/6c/f3/e46cf3251d27d0cfec1cc9cb92fab597.jpg">
+    <title>UPSP.TECH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <ul>
+<!--_____________________Acceuille__________________-->            
+        <li>
+            <a href="index.html">
+                <button class="animated-button">Acceuille</button>
+            </a>
+        </li>
+<!--_____________________Fin Acceuille__________________-->   
+    </ul>
+</nav>
+    <span style="color:white">
+        <center>
+            <h2 style="background-color: grey">
+                UPSP.TECH
+            </h2>
+        </center>
+        </span>
+        <div class="tech">
+        <!--_______________________Button volet ordi_______________________-->
+        
+            <button class="animated-button" style="background-color:rgb(68, 66, 66);" type="button" onclick="toggleDiv('div1');">
+                <strong>
+                    Ordinateur
+                </strong>
+                <br><span style="color:greenyellow">ouvrir</span>/<span style="color:red">fermé</span>
+            </button><br>
+        <!--_______________________Fin Button volet ordi_______________________-->
+         <!--_______________________Contenu button volet ordi_______________________-->
+         <div id="div1" style="display: none;"><br>
+            Rien pour l'instant
+        </div><br>
+        <!--_______________________Fin Contenu button volet ordi_______________________-->
+    
+        <!--_______________________Button volet téléphone_______________________-->
+        
+         <button class="animated-button" style="background-color:rgb(68, 66, 66);" type="button" onclick="toggleDiv('div3');">
+            <strong>
+                Téléphone
+            </strong>
+            <br><span style="color:greenyellow">ouvrir</span>/<span style="color:red">fermé</span>
+        </button><br>
+    <!--_______________________Fin Button volet téléphone_______________________-->
+             <!--_______________________Contenu button volet téléphone_______________________-->
+             <div id="div3" style="display: none;"><br>
+                Rien pour l'instant
+            </div><br>
+            <!--_______________________Fin Contenu button volet téléphone_______________________-->
+        <!--_______________________Button volet habillage_______________________-->
+                <button class="animated-button" style="background-color:rgb(68, 66, 66)" type="button" onclick="toggleDiv('div2');">              
+                        <strong>
+                        habillage PC
+                    </strong>
+                    <br><span style="color:greenyellow">ouvrir</span>/<span style="color:red">fermé</span>
+                </button>
+                        <br>
+        <!--_______________________Fin Button volet habillage_______________________--> 
+        
+        <!--_______________________Contenu Button volet habillage_______________________-->
+        <div id="div2" style="display: none;"><br>
+        Rien pour l'instant
+        </div><br>
+        <!--_______________________Fin Contenu button volet habillage_______________________-->
+    </div>
+        <script>
+            function toggleDiv(id) {
+                const divCible = document.getElementById(id);
+                divCible.style.display = (divCible.style.display === 'none') ? 'block' : 'none';
+            }
+        </script>
+</body>
+</html>
