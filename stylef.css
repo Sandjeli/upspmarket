@@ -1,0 +1,83 @@
+.logo{
+    margin-top:10px;
+    margin-left:0px;
+    max-width:100px;
+    max-height:100px;
+}
+
+body a{
+    text-align: center;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+div{
+    text-align:center;
+}
+
+h1{
+    border:4px blue solid;
+    border-radius:30px;
+    margin:30px;
+    padding:10px;
+    text-align:center;
+    color:red;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5{
+    margin:50px;
+    padding:0px;
+    max-width: max-content;
+    max-height: max-content;
+    border-radius:150px 0px;
+    background:greenyellow;
+
+}
+.clic{
+    border-radius: 100px;
+    width:300px;
+    height:500px;
+}
+
+footer{
+    display:block;
+    border:2px black solid;
+    background: grey;
+    padding:8px;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+/*css  page food*/
+#spanfood{
+    color:grey;
+    text-align: center;
+    border:2px;
+    border-radius: 10px;
+}
+h2{
+    background: orange;
+}
+#case1,#case2,#case3,#case4{
+    border:2px orange solid;
+    text-align: center;
+    margin: auto;
+}
+#img1,#img2,#img3{
+    border:1px orange solid;
+    max-width:90px;
+    max-height:90px;
+}
+.pa{
+    text-align: center;
+    border:red solid;
+    background:greenyellow;
+    text-decoration: underline;
+    text-shadow: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    margin:50px;
+}
+.footer{
+    margin-bottom: 0;
+}
