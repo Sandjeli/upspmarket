@@ -4,7 +4,7 @@ let lienfood=["img1","img2","img3","img4"];
 let sizefood=lienfood.length
 let indexfood=Math.floor(Math.random()*sizefood)
 let imgfood=lienfood[indexfood]
-document.getElementById('tab1').innerHTML='<a href="food.html"><img class="clic" alt="image de nouritures" title="Cliquez ici" src="upspmarket/img2.jpg"><figcaption><strong>FOODS UPSP</strong></figcaption></a>';
+document.getElementById('tab1').innerHTML='<a href="food.html"><img class="clic" alt="image de nouritures" title="Cliquez ici" src="img2.jpg"><figcaption><strong>FOODS UPSP</strong></figcaption></a>';
 //end img food
 
 //img cloths
