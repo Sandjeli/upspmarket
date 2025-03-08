@@ -1,6 +1,6 @@
 
 //img food
-let lienfood=["img1","img2","img3","img4","img5","img6","img7","img8","img9","img10"];
+let lienfood=["img1","img2","img3","img4"];
 let sizefood=lienfood.length
 let indexfood=Math.floor(Math.random()*sizefood)
 let imgfood=lienfood[indexfood]
@@ -8,7 +8,7 @@ document.getElementById('tab1').innerHTML='<a href="food.html"><img class="clic"
 //end img food
 
 //img cloths
-let liencloths=["img0","img1","img2","img3","img4","img5","img6","img7","img8","img9","img10","img11","img12","img13","img14","img15","img16","img17","img18","img19","img20","img21","img22","img23"];
+let liencloths=["img2","img6","img9","img13"];
 let sizecloths=liencloths.length
 let indexcloths=Math.floor(Math.random()*sizecloths)
 let imgcloths=liencloths[indexcloths]
@@ -16,7 +16,7 @@ document.getElementById('tab2').innerHTML='<a href="cloth.html"><img class="clic
 //end img cloths
 
 //img cosmetique
-let liencosmetique=["img0","img1","img2","img3","img4","img5","img6","img7","img8","img9","img10","img11","img12","img13","img14","img15","img16"];
+let liencosmetique=["img0","img1","img2","img3","img8"];
 let sizecosmetique=liencosmetique.length
 let indexcosmetique=Math.floor(Math.random()*sizecosmetique)
 let imgcosmetique=liencosmetique[indexcosmetique]
@@ -24,7 +24,7 @@ document.getElementById('tab3').innerHTML='<a href="cos.html"><img class="clic" 
 //end img cosmetique
 
 //img Tech
-let lienTech=["img0","img1","img2","img3","img4","img5","img6","img7","img8"];
+let lienTech=["img0","img1","img3","img8"];
 let sizeTech=lienTech.length
 let indexTech=Math.floor(Math.random()*sizeTech)
 let imgTech=lienTech[indexTech]
@@ -32,7 +32,7 @@ document.getElementById('tab4').innerHTML='<a href="tech.html"><img class="clic"
 //end img tech
 
 //img services
-let lienService=["img0","img1","img2","img3","img4","img5","img6","img7","img8"];
+let lienService=["img0","img1","img2","img4"];
 let sizeService=lienService.length
 let indexService=Math.floor(Math.random()*sizeService)
 let imgService=lienService[indexService]
