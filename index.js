@@ -12,7 +12,7 @@ let liencloths=["img2","img6","img9","img13"];
 let sizecloths=liencloths.length
 let indexcloths=Math.floor(Math.random()*sizecloths)
 let imgcloths=liencloths[indexcloths]
-document.getElementById('tab2').innerHTML='<a href="cloth.html"><img class="clic" alt="image de vêtements" title="Cliquez ici" src="upspmarket/img/cloths/'+imgcloths+'.jpg"><figcaption><strong>CLOTHES & SHOES</strong></figcaption></a>';
+document.getElementById('tab2').innerHTML='<a href="cloth.html"><img class="clic" alt="image de vêtements" title="Cliquez ici" src="upspmarket/img13.jpg"><figcaption><strong>CLOTHES & SHOES</strong></figcaption></a>';
 //end img cloths
 
 //img cosmetique
